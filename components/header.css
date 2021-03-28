@@ -1,0 +1,68 @@
+.header {
+  background-color: #000;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav,
+.navigation__menu {
+  display: flex;
+}
+.logo {
+  fill:#E9E9E9 ;
+  cursor: pointer;
+  animation: squarespace ease-in-out 8s infinite ;
+}
+@keyframes squarespace {
+  0% {
+    fill:red;
+  }
+  50% {
+    fill:#E9E9E9;
+  }
+  100% {
+    fill: yellow;
+  }
+}
+.nav__link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+  margin: 0 55px;
+  padding: 35px 45px;
+  transition: 0.5s;
+}
+.nav__link:hover {
+  color: #000000;
+  background-color:#ffffff;
+}
+li{
+  list-style-type: none;
+}
+.header__button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: white; 
+  opacity: 0.9;
+}
+.login {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-right: 40px;
+}

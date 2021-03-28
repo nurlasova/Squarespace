@@ -1,0 +1,42 @@
+.imagine {
+  background-image: url(../img/png/imagine.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.imagine__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imagine__title,
+.imagine__description,
+.imagine__video {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+.imagine__title {
+  font-size: 56px;
+  text-align: center;
+  padding-top: 150px;
+  width: 336px;
+}
+.imagine__description {
+  font-size: 22px;
+  text-align: center;
+  width: 386px;
+  word-spacing: 3px;
+  padding-top: 22px;
+}
+.imagine__video {
+  font-size: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  padding: 20px 0 126px 0;
+}

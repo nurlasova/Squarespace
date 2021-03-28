@@ -1,0 +1,34 @@
+.platform{
+    background: black;
+    padding: 74px 0;
+    border-top: 1px solid rgba(202, 202, 202, 0.5);
+    border-bottom: 1px solid rgba(202, 202, 202, 0.5);
+}
+.platform__title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #ffffff;
+    max-width: 722px;
+    /* padding: 20px 0; */
+}
+.platform__content{
+    justify-content: space-between;
+    
+}
+.platform__button{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: white;
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
